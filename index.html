@@ -1,62 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Wedding Invitation</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wedding Reception Invitation</title>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: #fff7f0;
-      color: #333;
-      text-align: center;
-    }
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Great+Vibes&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
 
-    section {
-      padding: 60px 20px;
-    }
-
-    h1 {
-      font-size: 36px;
-      color: #b76e79;
-      margin-bottom: 10px;
-    }
-
-    h2 {
-      font-size: 24px;
-      margin-top: 0;
-    }
-
-    .btn {
-      display: inline-block;
-      margin-top: 25px;
-      padding: 12px 28px;
-      background: #b76e79;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 30px;
-      font-size: 16px;
-    }
-  </style>
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-  <section>
-    <h1>💍 Wedding Invitation</h1>
-    <h2>Soma & Divya</h2>
+<!-- INTRO LOADER -->
+<div id="loader">
+  <div class="loader-content">
+    <h1>Wedding Reception</h1>
+    <p>Tap to Enter</p>
+  </div>
+</div>
 
-    <p>We request your gracious presence on our special day</p>
+<!-- PARTICLES -->
+<div id="particles"></div>
 
-    <p><strong>Date:</strong> 07 Feb 2026</p>
-    <p><strong>Venue:</strong> Chennai</p>
+<!-- HERO -->
+<section class="hero">
+  <h2>Wedding Reception</h2>
+  <h1>
+    <span>Divyadharini</span>
+    <em>&</em>
+    <span>Somasundare sh</span>
+  </h1>
+  <div class="date">07 February 2026</div>
+</section>
 
-    <a class="btn" href="https://wa.me/917904401247">
-      WhatsApp 
-    </a>
-  </section>
+<!-- DETAILS -->
+<section class="details">
+  <p class="invite-text">
+    With great pleasure, we request your gracious presence  
+    with family and friends on the auspicious evening.
+  </p>
 
+  <div class="info">
+    <div>
+      <h3>🕕 Time</h3>
+      <p>6:00 PM – 9:00 PM</p>
+    </div>
+    <div>
+      <h3>📍 Venue</h3>
+      <p>Nithilam Mahal<br>Karumathampatti – Avinashi Road</p>
+    </div>
+  </div>
+</section>
+
+<!-- COUNTDOWN -->
+<section class="countdown">
+  <h2>We begin our forever in</h2>
+  <div id="timer"></div>
+</section>
+
+<!-- MAP -->
+<section class="map">
+  <iframe
+    src="https://www.google.com/maps?q=Nithilam%20Mahal%20Karumathampatti&output=embed"
+    loading="lazy">
+  </iframe>
+</section>
+
+<!-- RSVP -->
+<section class="rsvp">
+  <a href="https://wa.me/919999999999" target="_blank">💬 RSVP on WhatsApp</a>
+</section>
+
+<footer>
+  With best compliments from<br><strong>Near & Dear</strong>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>

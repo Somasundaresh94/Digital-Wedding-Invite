@@ -25,6 +25,7 @@ body {
 
 .loader-content h1 {
   font-family: 'Cinzel', serif;
+  text-align: center;
   color: #d4af37;
   font-size: 2rem;
   letter-spacing: 2px;
@@ -161,3 +162,8 @@ footer {
     flex-direction: column;
   }
 }
+@media (max-width: 600px) {
+.loader-content h1 {
+  font-family: 'Cinzel', serif;
+  text-align: center;
+}}
